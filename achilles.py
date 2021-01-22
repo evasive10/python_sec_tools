@@ -70,3 +70,5 @@ if args.output:
     f.write(report)
     f.close
     print('Report saved to: ' + args.output)
+else:
+    print(report)
